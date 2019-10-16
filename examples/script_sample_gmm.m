@@ -1,0 +1,1 @@
+pkg load statistics% Define hyper-parametersphi = [0.25, 0.25, 0.5];  % probability of each clusternum_samples = 1000;  % number of samples to draw% Sample from 2D GMM[xs, ys, ks] = sample_gmm(phi, num_samples);% Plot samples from GMMscatter(xs, ys, [], ks, 'filled');

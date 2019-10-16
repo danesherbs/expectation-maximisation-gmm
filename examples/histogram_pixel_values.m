@@ -1,0 +1,1 @@
+pkg load imageRGB = imread('ic.jpg');GSC = rgb2gray(RGB);% Show imagefigure('Name', 'Grayscale image')imshow(GSC)% Show histogram of pixel valuesfigure('Name', 'Histogram of pixel values of grayscale image')imhist(GSC)
